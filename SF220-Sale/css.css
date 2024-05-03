@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Noto+Sans+Thai:wght@100..900&family=Outfit:wght@100..900&display=swap');
+
+*{
+margin: 0 auto;
+padding: 0;
+box-sizing: border-box;
+font-family: "Outfit", sans-serif;
+}
+
+.top 
+{
+position: fixed;
+width: 100%;
+height: 69px;
+top: 0%;
+display: flex;
+background-color: #3F72AF;
+z-index: 999;
+}
+.logo
+{
+margin-top: 5px;
+margin-left: 44px;
+display: flex;
+justify-content: flex-start;
+cursor: pointer;
+}
+
+.sign_log 
+{
+width: 299px;
+margin-right: 30px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.btn-signin a
+{
+text-decoration: none;
+font-size: 20px;
+font-style: bold;
+margin-right: 10px;
+align-items: center;
+cursor: pointer;
+}
+.btn-signin a button
+{
+width: 134px;
+height: 48px;
+background-color: #112D4E;
+color: #fff;
+border-radius: 10px;
+cursor: pointer;
+}
+
+.btn-login a 
+{
+text-decoration: none;
+font-size: 20px;
+font-style: bold;
+align-items: center;
+border-radius: 10px;
+cursor: pointer;
+}
+.btn-login a button
+{
+width: 134px;
+height: 48px;
+background-color: #112D4E;
+color: #fff;
+border-radius: 10px;
+cursor: pointer;
+}
+.categories 
+{
+font-style: bold;
+width: 686px;
+font-size: 18px;
+list-style: none;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-left: 134px;
+margin-right: 205px;
+}
+li a 
+{
+font-style: bold;
+color: #fff;
+text-decoration: none;
+display: inline-block;
+justify-content: space-between;
+}
+/* show-pro */
+h1
+{
+position: absolute;
+left: 45%;
+top: 130px;
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 100%;
+display: flex;
+align-items: center;
+letter-spacing: -0.03em;
+color: #112D4E;
+}
+
+.col-sm-3 .text-center img{
+    width: 90%;
+    filter: drop-shadow(0 5px 30px #0009);
+}
+.col-sm-3 .text-center{
+    background-color: #F9F7F7;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.col-sm-3 .text-center .text-success h5{
+    margin-top: 20px;
+    color: #112D4E;
+    font-weight: 500;
+    font-size: 50px;
+}
+.col-sm-3 .text-center .text-danger{
+    letter-spacing: 7px;
+    font-size: small;
+}
+.col-sm-3 .text-center button{
+    background-color: #112D4E;
+    color: #eee;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.col-sm-3 .text-center .btn btn-outline-dark mt-3 {
+    width: 400px; 
+    height: 450px; 
+    background: #F9F7F7;
+}
+
+
+.col-md-4 img{
+    margin-top: 200px;
+    width: 510px;
+    height: 510px;
+    align-items: center;
+    background-color: #F9F7F7;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    filter: drop-shadow(0 5px 15px #0009);
+}
+
+.Bottom
+{
+position: fixed;
+width: 100%;
+height: 69px;
+bottom: 0%;
+left: 0px;
+top: calc(100% - 50px);
+background: #3F72AF;
+z-index: 999;
+}
+
+
